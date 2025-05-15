@@ -1,0 +1,15 @@
+# HTTP Framework
+fastapi>=0.103.1
+uvicorn>=0.23.2
+
+# Dapr SDK for Python
+dapr-ext-fastapi>=0.7.0
+dapr>=1.10.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.4.0
+
+# Development
+pytest>=7.4.0
+httpx>=0.24.1

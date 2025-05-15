@@ -1,0 +1,19 @@
+{
+  "components": [
+    {
+      "name": "pubsub",
+      "type": "pubsub.redis",
+      "version": "v1",
+      "metadata": [
+        {
+          "name": "redisHost",
+          "value": "localhost:6379"
+        },
+        {
+          "name": "redisPassword",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

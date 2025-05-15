@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "name": "input-binding",
+      "type": "bindings.kafka",
+      "version": "v1",
+      "metadata": [
+        {
+          "name": "brokers",
+          "value": "localhost:9092"
+        },
+        {
+          "name": "topics",
+          "value": "input-topic"
+        },
+        {
+          "name": "consumerGroup",
+          "value": "dapr-microservice-group"
+        },
+        {
+          "name": "publishTopic",
+          "value": "input-topic"
+        },
+        {
+          "name": "direction",
+          "value": "input"
+        }
+      ]
+    },
+    {
+      "name": "output-binding",
+      "type": "bindings.kafka",
+      "version": "v1",
+      "metadata": [
+        {
+          "name": "brokers",
+          "value": "localhost:9092"
+        },
+        {
+          "name": "topics",
+          "value": "output-topic"
+        },
+        {
+          "name": "publishTopic",
+          "value": "output-topic"
+        },
+        {
+          "name": "direction",
+          "value": "output"
+        }
+      ]
+    }
+  ]
+}
